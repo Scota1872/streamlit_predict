@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split, KFold, cross_val_score
 from catboost import CatBoostRegressor
 
 #---------------------------CONFIGURAÇÕES STREAMLIT---------------------------------#
-st.set_page_config(page_title='Simulador de Preço de Veículos', layout='wide',theme='dark')
+st.set_page_config(page_title='Simulador de Preço de Veículos', layout='wide')
 
 #---------------------------CARREGAR DADOS-------------------------------------------#
 df_raw = pd.read_csv('Dataset_price.csv', sep=',', encoding='LATIN')
@@ -145,4 +145,5 @@ def graficos():
 selecoes, btn_simular, btn_limpar = barra_simulador()
 tela_principal(selecoes, btn_simular)
 graficos()
+
 
