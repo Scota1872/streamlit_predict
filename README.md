@@ -15,15 +15,10 @@ Interface responsiva e de fácil uso via Streamlit.
 Tecnologias utilizadas
 
 Python
-
 Streamlit
-
 Pandas
-
 Altair
-
 Matplotlib
-
 Seaborn
 
 Objetivo
