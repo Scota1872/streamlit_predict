@@ -67,7 +67,7 @@ def barra_simulador():
 #------------------------------------TELA PRINCIPAL--------------------------------------------------#
 def tela_principal(selecoes, btn_simular):
     col1, col2 = st.columns(2)
-    fotos = ("C:/Users/Junior/projeto_git/fotos")
+    fotos = ("/fotos")
 
     with col1:
         st.subheader('')
@@ -145,5 +145,6 @@ def graficos():
 selecoes, btn_simular, btn_limpar = barra_simulador()
 tela_principal(selecoes, btn_simular)
 graficos()
+
 
 
